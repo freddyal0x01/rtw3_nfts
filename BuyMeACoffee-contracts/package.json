@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.4",
-    "@nomiclabs/hardhat-ethers": "^2.2.1"
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "dotenv": "^16.0.3"
   }
 }
