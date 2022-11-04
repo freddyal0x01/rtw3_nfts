@@ -1,7 +1,9 @@
-require("@nomicfoundation/hardhat-toolbox");
-require("@nomicfoundation/hardhat-chai-matchers");
-require("@nomiclabs/hardhat-ethers");
-require("dotenv").config()
+import "@nomicfoundation/hardhat-toolbox";
+import "@nomicfoundation/hardhat-chai-matchers";
+import "@nomiclabs/hardhat-ethers";
+import config from "dotenv";
+
+config()
 
 const GOERLI_URL = process.env.GOERLI_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
